@@ -10,9 +10,10 @@
 </head>
 <body>
     <div id="app">
-    <h1> {{ message }}</h1>
-    
-   <img v-bind:src="imgpath">
-   </div>
+        <div :class="textCenter">
+            <h1> {{ message }}</h1>
+            <img v-bind:src="imgpath">
+        </div>
+    </div>
 </body>
 </html>
