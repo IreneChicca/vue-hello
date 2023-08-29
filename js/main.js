@@ -5,7 +5,8 @@ createApp({
     return {
       message: 'Hello World! (:',
       imgpath: './img/paw.png',
-      textCenter: 'text-center p-4 border'
+      textCenter: 'text-center p-4 border',
+      round: 'rounded-circle'
       
     }
   }
