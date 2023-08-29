@@ -5,7 +5,8 @@ createApp({
     return {
       message: 'Hello World! (:',
       imgpath: './img/paw.png',
-      textCenter: 'text-center'
+      textCenter: 'text-center p-4 border'
+      
     }
   }
 }).mount('#app')
